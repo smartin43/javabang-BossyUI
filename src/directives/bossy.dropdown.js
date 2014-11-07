@@ -20,10 +20,9 @@ angular.module('bossy.dropdown', [])
 				affiliated: '='
             },
 			link: function(scope,element,attrs){
-				// scope.main = attrs.main;
-				// scope.affiliated = attrs.affiliated;
+				scope.main = attrs.main;
+				scope.affiliated = attrs.affiliated;
 			},
-			// template: '<div> {{main.name}} poop {{affiliated}} </div>',
 			templateUrl: 'bossy.dropdown.html',
 			controller: function($scope, bossyDropdownFactory) {
 				$scope.contents = [];
