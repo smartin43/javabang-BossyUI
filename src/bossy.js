@@ -9,13 +9,18 @@
  *
  * Licensed under the MIT license. Please see LICENSE for more information.
  *
- */
+*/
 
 //TODO: need layout, labels
 var bossy = angular.module('bossy', [
-        'app.factory.bossy.data',
-        'app.factory.bossy.schema',
-        'app.directive.bossy.form',
-        'app.directive.bossy.input'
+        'bossy.calendar',
+        'bossy.data',
+        'bossy.dropdown',
+        'bossy.form',
+        'bossy.input',
+        'bossy.multiselect',
+        'bossy.numerictextbox',
+        'bossy.schema',
+        'bossy.tooltip'
     ]
 );

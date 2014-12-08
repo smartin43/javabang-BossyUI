@@ -1,7 +1,11 @@
 # Project
 node_modules
-demo/public/bower_components
-build
+bower_components
+npm-debug.log
+sites/sandbox/lib/bower
+
+# Demo/Docs Site
+_site/
 
 # Editor
 .idea/
@@ -11,5 +15,6 @@ build
 
 # Compass
 .sass-cache
-test/directives/bossy.dropdown.spec.js
-src/directives/templates/directiveTest.html
+
+# Local Testing
+local.html
