@@ -1,3 +1,17 @@
+/**
+* bossy.tooltip is a widget that allows the user to create a block of quick information to hover next to the target object.
+* The user MUST create a "config" object - This object and its data members will be used to serialize all the data necessary for the tooltip creation
+*
+* Data members part of the config object are "src", "title", "selected", "template"
+* The user MUST pass the "title" - The title of the tooltip
+* The user MUST pass a "body" -The information of the tooltip
+* The user CAN provide a "position" - The position of the tooltip relative to the target (cardinal directions)
+* @since        1.0
+* @author 		Alen Maragoul
+* @author 		Shelby Martin
+* @author 		Patrick Barnum
+* 
+*/
 angular.module('bossy.tooltip', [])
     .directive('bossyTooltip', function() {
     
